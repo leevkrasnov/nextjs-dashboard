@@ -1,5 +1,41 @@
-## Next.js App Router Course - Starter
+# Next.js Dashboard
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+## Описание
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+Этот проект выполняется в рамках официального курса по [Next.js](https://nextjs.org/learn). На текущем этапе я изучил и внедрил несколько ключевых функций:
+
+1. Добавление и оптимизация шрифтов и изображений для повышения производительности.
+2. Создание макетов и страниц, а также навигация между ними.
+3. Настройка базы данных PostgreSQL с использованием библиотеки @vercel/postgres.
+
+## Технологии
+
+- Next.js
+- pnpm
+- PostgreSQL
+
+## Установка
+
+**Следуйте этим шагам, чтобы установить и запустить проект:**
+
+1. Клонируйте репозиторий локально:
+
+```bash
+$ git clone https://github.com/leevkrasnov/nextjs-dashboard.git
+```
+
+2. Установите зависимости:
+
+```bash
+$ pnpm install
+```
+
+3. Запустите приложение:
+
+```bash
+$ pnpm dev
+```
+
+## Развертывание
+
+Этот проект можно развернуть на платформе [Vercel](https://vercel.com/), обеспечивая автоматическую интеграцию с репозиторием.
